@@ -56,6 +56,7 @@ void readLine(){
  }
  if(inword){
     countword++;
+    inword=false;
  }
   lastwasspace=false;
  }
